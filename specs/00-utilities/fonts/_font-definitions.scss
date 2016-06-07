@@ -1,0 +1,49 @@
+/*
+ * font-face definitions
+*/
+
+$font-path: "../fonts/";
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('#{$font-path}OpenSans-Light-webfont.eot');
+    src: url('#{$font-path}OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-path}OpenSans-Light-webfont.woff') format('woff'),
+         url('#{$font-path}OpenSans-Light-webfont.ttf') format('truetype'),
+         url('#{$font-path}OpenSans-Light-webfont.svg#open_sansregular') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('#{$font-path}OpenSans-Bold-webfont.eot');
+    src: url('#{$font-path}OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-path}OpenSans-Bold-webfont.woff') format('woff'),
+         url('#{$font-path}OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('#{$font-path}OpenSans-Bold-webfont.svg#open_sansregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('#{$font-path}OpenSans-Regular-webfont.eot');
+    src: url('#{$font-path}OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-path}OpenSans-Regular-webfont.woff') format('woff'),
+         url('#{$font-path}OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('#{$font-path}OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('#{$font-path}RobotoSlab-Regular-webfont.eot');
+    src: url('#{$font-path}RobotoSlab-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-path}RobotoSlab-Regular-webfont.woff') format('woff'),
+         url('#{$font-path}RobotoSlab-Regular-webfont.ttf') format('truetype'),
+         url('#{$font-path}RobotoSlab-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
